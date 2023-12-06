@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 220, 220);
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: blueviolet;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+
+.mySlides {
+    display: none;
+}
+  
+body {
+    background-color: rgb(13, 220, 220);
+    font-family: Verdana, sans-serif;
+}
+  
+.head {
+    margin-top: 20px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 30px;
+    background-color: #6f459e;
+    color: white;
+    border-radius: 19px;
+    font-weight: bolder;
+}
+  
+.data-container {
+    width: 600px;
+    height: 384px;
+    position: relative;
+    margin: 0 auto;
+}
+  
+.bar {
+    width: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 183, 255);
+    transition: 0.2s all ease;
+}
+  
+.bar__id {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+}
+.btn1 {
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #6f459e;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: white;
+    margin-left: 37vw;
+    margin-top: 4vw;
+    margin-right: 1vw;
+}
+.btn2 {
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #6f459e;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: white;
+}
